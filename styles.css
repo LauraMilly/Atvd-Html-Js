@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url(img/Background-monocromatico.avif);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    background-color: rgba(255, 255, 255, 0.774);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.10);
+    text-align: center;
+    width: 400px;
+}
+
+.container h2 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-style: normal;;
+}
+
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: calc(100% - 10px);
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid white;
+    border-radius: 3px;
+    background:none;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.774);
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: #02204e4f;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 3px;
+    display: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.message.valid {
+    background-color: #295ff3;
+    color: white;
+}
+
+.message.invalid {
+    background-color: #011e6e;
+    color: white;
+}
